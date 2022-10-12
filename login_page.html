@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon2.webp" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Elections</title>
+    <link rel="stylesheet" href="login_style.css">
+    <script>
+      function alert_() {
+        alert("Firstly login using your details")
+      }
+    </script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light" style="background-color: black;">
+        <div class="container-fluid">
+
+            <img src="college_logo.jpeg" alt="KMIT" href="#">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <button onclick="alert_()" class="but"><a class="nav-link" href="#">Contest</a></button>
+              </li>
+              <li class="nav-item">
+                <button onclick="alert_()" class="but"><a class="nav-link" href="#">Vote</a></button>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contestents
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <p id="idshow" border="10px">student_id@email.com</p>
+            <span class="material-symbols-outlined" border="10px">
+              account_circle
+              </span>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <h1>|| WELCOME ||</h1>
+
+    <div id="div_main">
+      <div class="col-sm-6" id="div_table">
+          <br>
+          <h4 align="center">  Login AND Continue !!!</h2>
+            <br>
+            <br>
+          <form>
+            <table id="table">
+              <tr class="row">
+                <td>
+                  <input type="text" name="username" class="box" placeholder="Username">
+                  </td>
+              </tr>
+              <tr class="row" >
+                <td>
+                  <input type="Password" name="Password" class="box" placeholder="Password">
+                </td>
+              </tr>
+              <tr class="row" style="text-align: center;">
+                <td>
+                  <input type="submit" name="" value="Log In" id="submit">
+                </td>
+              </tr>
+            </table>
+          </form>
+      </div>
+        <div class="col-sm-6" id="div_img">
+          <img src="./wt_login.png" id="img">
+        </div>
+    </div> 
+    <footer>
+      <!-- <h2>HELLo</h2> -->
+    </footer>
+</body>
+</html>
